@@ -1,0 +1,10 @@
+let name = 'coding is great';
+console.log(name);
+let studentcount = 0;
+console.log(0);
+name = 'Coding might not be easy, but still great';
+console.log(name);
+studentcount =15;
+console.log(studentcount);
+hope = name.tolowercase();
+console.log(studentcout +1);
