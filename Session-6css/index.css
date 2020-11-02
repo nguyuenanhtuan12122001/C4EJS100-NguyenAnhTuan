@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    width: 100%;
+    height: 120px;
+
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+}
+.up ul li {
+    display: inline-block
+}
+.up ul li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.down{
+    height: 50px;
+    width: 80%;
+}
+.search{
+    height: 100px;
+    width: 550px;
+    background-color:white;
+    margin: 0 auto;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.search input{
+    width: 450px;
+    height: 35px;
+
+}
+.conten{
+    width: 1000px;
+    margin: 20 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 200px;
+}
+.item img{
+    width: 200px;
+    height: 200px;
+}
